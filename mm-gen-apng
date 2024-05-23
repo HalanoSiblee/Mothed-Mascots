@@ -1,0 +1,4 @@
+#!/bin/sh
+# Code By Halano Siblee HalanoSiblee@gmail.com
+ffmpeg -i %04d.png -plays 0 animation.apng
+# Whatever

@@ -1,0 +1,5 @@
+#!/bin/sh
+# Code By Halano Siblee HalanoSiblee@gmail.com
+ffmpeg -i %04d.png -vf palettegen=reserve_transparent=1 palette.png
+ffmpeg -framerate 30 -i %04d.png -i palette.png -lavfi paletteuse=alpha_threshold=128 -gifflags -offsetting animation.gif
+# Whatever

@@ -1,0 +1,4 @@
+#!/bin/sh
+# Code By Halano Siblee HalanoSiblee@gmail.com
+ffmpeg -i %04d.png -loop 0 animation.webp
+# Whatever this time it's google webp encoding ._.
